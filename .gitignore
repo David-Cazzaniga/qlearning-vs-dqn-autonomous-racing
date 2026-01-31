@@ -1,0 +1,13 @@
+﻿# Ignora la cartella dell'ambiente virtuale
+venv/
+.env
+env/
+
+# Ignora i file temporanei di Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignora i modelli salvati (opzionale, se sono pesanti, altrimenti rimuovi queste righe)
+*.pkl
+*.pth
